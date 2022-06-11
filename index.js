@@ -1,4 +1,4 @@
-const { bacaData } = require("./sanbox4");
+const { bacaData } = require("./fungsiCustom");
 
 // ! JANGAN DIMODIFIKASI
 // main function
