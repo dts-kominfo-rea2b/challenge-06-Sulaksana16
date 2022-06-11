@@ -1,4 +1,4 @@
-const { bacaData } = require("./fungsiCustom");
+const { bacaData } = require("./sanbox4");
 
 // ! JANGAN DIMODIFIKASI
 // main function
@@ -6,8 +6,8 @@ const { bacaData } = require("./fungsiCustom");
   console.log("Mari kita membaca data yah !");
   console.log("====");
   bacaData((err, data) => {
-    if (err) return console.log(err);
-    console.log(data?.join());
+    if (err) return console.log(err,'dr index err');
+    console.log(data?.join(), 'dr index data');
   });
   console.log("Walaupun tulisan ini diletakkan di setelah bacaData");
   console.log("Namun tulisan ini akan ditampilkan terlebih dahulu");
